@@ -9,5 +9,13 @@ module.exports = {
         path: './src/content/',
       },
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Merriweather', 'Merriweather Sans']
+        }
+      }
+    },
   ]
 }
