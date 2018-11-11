@@ -7,7 +7,7 @@ import '../../styles/font-mfizz.css';
 
 
 const Grid = () => (
-    <div className="homepage__grid mw8">
+    <div className="homepage__grid mw8 pa2">
       <GridProjectContents />
       <GridBlogContents />
     </div>

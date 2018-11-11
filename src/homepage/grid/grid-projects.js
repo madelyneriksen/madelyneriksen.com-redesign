@@ -14,6 +14,7 @@ const GridProjectContents = () => (
               name
               description
               icons
+              url
             }
           }
         }
@@ -22,7 +23,11 @@ const GridProjectContents = () => (
     render={data => data.allProjectsJson.edges.map(({ node }) => (
       <GridContainer>
         <div className="w-100 tc">
-          <span className="f3 tracked-tight fw3">{node.name}</span>
+          <a
+            href={node.url}
+            className="grow dib no-underline near-white f3 tracked-tight fw3">
+            {node.name}
+          </a>
         </div>
         <div><p className="tc i serif">{node.description}</p></div>
         <div className="flex items-center justify-between">
