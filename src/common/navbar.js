@@ -47,7 +47,7 @@ class NavBar extends React.Component {
               <Link
                 to="/"
                 className="f3 tracked-tight mid-gray no-underline">
-                madelyn eriksen
+                madelyn.eriksen()
               </Link>
             </div>
             <div className="w1" />
