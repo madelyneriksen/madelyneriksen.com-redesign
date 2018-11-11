@@ -21,7 +21,7 @@ const GridBlogContents = () => (
       }
     `}
     render={data => data.allMarkdownRemark.edges.map(({node}) => (
-      <GridContainer>
+      <GridContainer extraClasses={"bg-light-red"}>
         <div className="w-100 tc">
           <Link
             to={node.frontmatter.path}

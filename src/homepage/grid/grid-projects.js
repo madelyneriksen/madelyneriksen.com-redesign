@@ -21,7 +21,7 @@ const GridProjectContents = () => (
       }
     `}
     render={data => data.allProjectsJson.edges.map(({ node }) => (
-      <GridContainer>
+      <GridContainer extraClasses={"bg-light-red"}>
         <div className="w-100 tc">
           <a
             href={node.url}

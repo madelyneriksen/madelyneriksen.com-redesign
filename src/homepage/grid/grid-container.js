@@ -1,12 +1,16 @@
 import React from 'react';
+import randomChoice from '../../common/functions/random-choice.js';
+import classNames from '../../common/functions/class-names.js';
 
 
-const GridContainer = ({ children }) => (
-  <div className="w-100 pa2 near-white mb1">
+const GridContainer = (props) => (
+  <div className="w-100 pa2 mb1 near-white">
     <div
-      className="bg-light-red flex flex-column justify-between pa3"
-      style={{minHeight: Math.floor(Math.random() * 11) + 18 + "rem"}}>
-      {children}
+      className={
+        classNames("flex flex-column justify-between pa3", props.extraClasses)
+      }
+      style={{minHeight: randomChoice("18rem", "20rem", "22rem", "24rem")}}>
+      {props.children}
     </div>
   </div>
 )
