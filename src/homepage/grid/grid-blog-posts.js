@@ -23,9 +23,9 @@ const GridBlogContents = () => (
     render={data => data.allMarkdownRemark.edges.map(({node}) => (
       <GridContainer>
         <div className="w-100 tc">
-          <span className="f2 tracked-light">{node.frontmatter.title}</span>
+          <span className="f3 tracked-light">{node.frontmatter.title}</span>
         </div>
-        <div><p className="tc i">{node.frontmatter.excerpt}</p></div>
+        <div><p className="tc i serif">{node.frontmatter.excerpt}</p></div>
         <div className="flex items-center justify-between">
           <div><span className="i">blog post</span></div>
           <div />
