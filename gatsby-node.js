@@ -27,13 +27,15 @@ exports.createPages = ({ graphql, actions}) => {
 
         result.data.allMarkdownRemark.edges.forEach(({ node }) => {
           const slug = node.frontmatter.path;
-          createPage({
-            path: slug,
-            component: template,
-            context: {
-              slug,
-            },
-          })
+          if (slug) {
+            createPage({
+              path: slug,
+              component: template,
+              context: {
+                slug,
+              },
+            })
+          }
         })
       })
     )
