@@ -1,5 +1,5 @@
 import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql, Link } from 'gatsby';
 import classNames from '../../common/functions/class-names.js';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
@@ -25,12 +25,18 @@ export default () => (
       <div>
         <div className="w-100 pv5 ph2 flex flex-wrap items-center justify-center">
           <div className="w-100 mw6"><h1>{node.header}</h1></div>
-          <div className="w-100 mw6"><p className="i">{node.body}</p></div>
+          <div className="w-100 mw6">
+            <p className="i">{node.body}</p>
+            <Link className="green b hover-light-green" to="/about">About Me &raquo;</Link>
+          </div>
         </div>
-        <div className="w-100 mw8 center pv3 ph2 flex flex-wrap items-center justify-center">
+        <div className="w-100 mw8 center pb2 ph2 flex flex-wrap items-center justify-center">
           {node.icons.map(icon => (
             <div className="w4 tc">
-              <ScrollAnimation animateIn="flipInX" delay={node.icons.indexOf(icon)*100}>
+              <ScrollAnimation
+                animateIn="flipInX"
+                delay={node.icons.indexOf(icon)*100}
+                animateOnce={true}>
                 <i className={classNames("f-subheadline", "icon-"+icon)} />
               </ScrollAnimation>
             </div>
