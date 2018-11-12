@@ -7,7 +7,9 @@ export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div 
+        className="mw8 center pa2"
+        dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   )
 }
