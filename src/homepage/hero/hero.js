@@ -12,7 +12,7 @@ export default () => (
         <p className="sans-serif tracked">SOFTWARE DEVELOPER</p>
       </div>
       <div className="pv4" />
-      <div className="f1 f-subheadline-ns tracked-tight b">
+      <div className="f1 f-headline-ns tracked-tight b">
         <AnimatedText text="MADELYN" />
         <AnimatedText text="ERIKSEN" />
       </div>
