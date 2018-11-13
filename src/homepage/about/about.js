@@ -23,26 +23,26 @@ export default () => (
     `}
     render={data => data.allAboutJson.edges.map(({node}) => (
       <div className="bg-light-gray">
-        <div className="w-100 pv3 ph2 flex flex-wrap items-center justify-center">
-          <div className="w-100 mw6"><h1>{node.header}</h1></div>
-          <div className="w-100 mw6">
-            <p className="i">{node.body}</p>
+        <div className="w-100 ph2 flex flex-wrap items-center justify-around">
+          <div className="w-100 mw6 pv3">
+            <h1>{node.header}</h1>
+            <p className="f4">{node.body}</p>
             <Link className="green b hover-light-green" to="/about">About Me &raquo;</Link>
           </div>
-        </div>
-        <div className="w-100 mw8 center pb3 ph2 flex flex-wrap items-center justify-center">
-          {node.icons.map(icon => (
-            <div className="w4 tc">
-              <ScrollAnimation
-                animateIn="flipInX"
-                delay={node.icons.indexOf(icon)*100}
-                animateOnce={true}>
-                <i className={classNames("f-subheadline", "icon-"+icon)} />
-              </ScrollAnimation>
-            </div>
-          ))}
+          <div className="w-100 mw6 tc pv3">
+            {node.icons.map(icon => (
+              <div className="w4 dib">
+                <ScrollAnimation
+                  animateIn="flipInX"
+                  delay={node.icons.indexOf(icon)*100}
+                  animateOnce={true}>
+                  <i className={classNames("f-subheadline", "icon-"+icon)} />
+                </ScrollAnimation>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    ))}
-  />
+        ))}
+      />
 )
