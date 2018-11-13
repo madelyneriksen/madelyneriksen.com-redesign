@@ -22,7 +22,7 @@ class NavBar extends React.Component {
     return (
       <div className="w-100 bg-near-white">
         <div
-          className={["navbar__menu bg-near-white",
+          className={["navbar__menu bg-near-white z-max",
             this.state.menuActive ? "navbar__menu__active" : null].join(' ')}>
             <button onClick={this.menuClick}
               className="f2 pv2 ph3 b--transparent bg-transparent pointer mid-gray absolute top-0 left-0">
