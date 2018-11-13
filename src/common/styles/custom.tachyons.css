@@ -1,16 +1,16 @@
 /* Customized tachyons styles. */
 body {
-  font-family: 'Merriweather Sans', 'sans-serif';
+  font-family: 'Open Sans', 'sans-serif';
 }
 
 p {
-  font-family: 'Merriweather', 'serif';
+  font-family: 'Lora', 'serif';
 }
 
 .sans-serif {
-  font-family: 'Merriweather Sans', 'sans-serif';
+  font-family: 'Open Sans', 'sans-serif';
 }
 
 .serif {
-  font-family: 'Merriweather', 'serif',
+  font-family: 'Lora', 'serif',
 }

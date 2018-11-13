@@ -13,7 +13,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Merriweather', 'Merriweather Sans']
+          families: ['Lora', 'Open Sans']
         }
       }
     },
