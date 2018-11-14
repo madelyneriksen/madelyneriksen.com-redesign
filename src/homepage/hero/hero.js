@@ -5,8 +5,7 @@ import AnimatedText from './animated-text.js';
 
 export default () => (
   <div
-    className="flex flex-wrap justify-center items-center w-100 pa2"
-    style={{minHeight: "95vh"}}>
+    className="flex flex-wrap justify-center items-center w-100 pa2 vh-100">
     <div className="w-100 mw7 pa2">
       <div>
         <p className="sans-serif tracked">SOFTWARE DEVELOPER</p>
