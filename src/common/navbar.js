@@ -20,7 +20,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div className="w-100 bg-near-white">
+      <div className="w-100 bg-white z-999" style={{position: "sticky", top: "0"}}>
         <div
           className={["navbar__menu bg-near-white z-max",
             this.state.menuActive ? "navbar__menu__active" : null].join(' ')}>
