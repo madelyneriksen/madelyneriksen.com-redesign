@@ -22,7 +22,7 @@ export default () => (
       }
     `}
     render={data => data.allAboutJson.edges.map(({node}) => (
-      <div className="bg-light-gray">
+      <div className="bg-light-gray pv3">
         <div className="w-100 ph2 flex flex-wrap items-center justify-around">
           <div className="w-100 mw6 pv3">
             <h1>{node.header}</h1>
