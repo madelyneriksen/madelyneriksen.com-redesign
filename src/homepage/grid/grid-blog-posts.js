@@ -31,7 +31,7 @@ const GridBlogContents = () => (
         </div>
         <div><p className="tc i serif">{node.frontmatter.excerpt}</p></div>
         <div className="flex items-center justify-between">
-          <div><span className="i">blog post</span></div>
+          <div><span className="tracked-tight">blog post</span></div>
           <div />
         </div>
       </GridContainer>

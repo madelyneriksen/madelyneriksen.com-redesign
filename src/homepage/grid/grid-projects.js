@@ -31,7 +31,7 @@ const GridProjectContents = () => (
         </div>
         <div><p className="tc i serif">{node.description}</p></div>
         <div className="flex items-center justify-between">
-          <div><span className="i serif">project</span></div>
+          <div><span className="tracked-tight">project</span></div>
           <div>{node.icons.map(icon => (
             <i className={["ph1 f4", "icon-"+icon].join(' ')} />
           ))}
