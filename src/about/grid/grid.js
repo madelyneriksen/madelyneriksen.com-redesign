@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/grid.css';
 import BlockImage from './block-image.js';
-import Pueblo from '../../content/about/img/pueblo.jpg';
-import MyPicture from '../../content/about/img/me.jpeg';
-import Sunset from '../../content/about/img/sunset.jpeg';
+import Pueblo from '../../../content/about/img/pueblo.jpg';
+import MyPicture from '../../../content/about/img/me.jpeg';
+import Sunset from '../../../content/about/img/sunset.jpeg';
 
 
 class Grid extends React.Component {

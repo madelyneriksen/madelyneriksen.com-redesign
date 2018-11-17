@@ -62,4 +62,4 @@ public
 yarn-error.log
 
 # Temporary, for development.
-src/content/
+content/
