@@ -28,9 +28,12 @@ class NavBar extends React.Component {
               className="f2 pv2 ph3 b--transparent bg-transparent pointer mid-gray fl">
               &times;
             </button>
-            <div className="h-100 w-100 flex flex-column justify-center">
-              <div className="self-center">
+            <div className="h-100 w-100 flex flex-column justify-center items-center">
+              <div>
                 <Link to="/" className="mid-gray no-underline">Home</Link>
+              </div>
+              <div>
+                <Link to="about/" className="mid-gray no-underline">About</Link>
               </div>
             </div>
           </div>
