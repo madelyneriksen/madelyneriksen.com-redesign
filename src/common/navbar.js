@@ -20,12 +20,12 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div className="w-100 bg-white z-999" style={{position: "fixed", top: "0"}}>
+      <div className="w-100 bg-white z-999 h3 flex items-center" style={{position: "fixed", top: "0"}}>
         <div
           className={["navbar__menu bg-near-white z-max",
             this.state.menuActive ? "navbar__menu__active" : null].join(' ')}>
             <button onClick={this.menuClick}
-              className="f2 pv2 ph3 b--transparent bg-transparent pointer mid-gray absolute top-0 left-0">
+              className="f2 pv2 ph3 b--transparent bg-transparent pointer mid-gray fl">
               &times;
             </button>
             <div className="h-100 w-100 flex flex-column justify-center">
