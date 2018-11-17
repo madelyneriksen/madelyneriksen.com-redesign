@@ -7,7 +7,7 @@ const GridBlogContents = () => (
   <StaticQuery
     query={graphql`
       query {
-        allMarkdownRemark {
+        allMarkdownRemark(filter: {frontmatter: {type: {eq: "post"}}}) {
           edges {
             node {
               frontmatter {
