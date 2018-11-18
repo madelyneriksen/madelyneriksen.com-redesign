@@ -32,6 +32,7 @@ class NavBar extends React.Component {
             <div className="navbar__links h-100 w-100 flex flex-column justify-center items-center">
               <NavbarItem to="/">Home</NavbarItem>
               <NavbarItem to="/about/">About</NavbarItem>
+              <NavbarItem to="https://github.com/madelyneriksen/">Github</NavbarItem>
             </div>
           </div>
           <div
