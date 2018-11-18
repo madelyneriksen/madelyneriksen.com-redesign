@@ -8,18 +8,18 @@ export default () => (
     className="flex flex-wrap justify-center items-center w-100 pa2 vh-100">
     <div className="w-100 mw7 pa2">
       <div>
-        <p className="sans-serif tracked">SOFTWARE DEVELOPER</p>
+        <p className="tracked">SOFTWARE DEVELOPER</p>
       </div>
       <div className="pv4" />
-      <div className="f1 f-headline-ns tracked-tight b">
+      <div className="f1 fw9 f-headline-ns tracked-tight b">
         <AnimatedText text="MADELYN" />
         <AnimatedText text="ERIKSEN" />
       </div>
       <div className="pv4" />
       <div>
-        <p className="b sans-serif">BACK END \</p>
+        <p className="b">BACK END \</p>
         <p><span className="i">FRONT END &nbsp; </span><span className="sans-serif b">\</span></p>
-        <p className="b sans-serif">OPS.</p>
+        <p className="b">OPS.</p>
       </div>
     </div>
     <div className="db-ns dn w-100 mw6 tr">

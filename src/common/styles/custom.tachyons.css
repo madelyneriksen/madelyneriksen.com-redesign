@@ -1,16 +1,8 @@
 /* Customized tachyons styles. */
 body {
-  font-family: 'Open Sans', 'sans-serif';
+  font-family: 'Karla', 'sans-serif';
 }
 
-p {
-  font-family: 'Lora', 'serif';
-}
-
-.sans-serif {
-  font-family: 'Open Sans', 'sans-serif';
-}
-
-.serif {
-  font-family: 'Lora', 'serif';
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', 'sans-serif';
 }
