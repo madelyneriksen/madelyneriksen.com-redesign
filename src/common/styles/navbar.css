@@ -5,10 +5,19 @@
   height: 100vh;
   width: 0;
   overflow: hidden;
-  transition: all .7s ease;
+  transition: all .4s ease;
+}
+
+.navbar__menu .navbar__links {
+  opacity: 0;
+  transition: all .3s ease-in .4s;
 }
 
 .navbar__menu__active {
   width: 24rem;
   max-width: 100vw;
+}
+
+.navbar__menu__active .navbar__links {
+  opacity: 1;
 }

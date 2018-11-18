@@ -1,4 +1,5 @@
 import React from 'react';
+import NavbarItem from './navbar-item.js';
 import { Link } from 'gatsby';
 import { FiAlignLeft } from 'react-icons/fi';
 import './styles/navbar.css'
@@ -28,13 +29,9 @@ class NavBar extends React.Component {
               className="f2 pv2 ph3 b--transparent bg-transparent pointer mid-gray fl">
               &times;
             </button>
-            <div className="h-100 w-100 flex flex-column justify-center items-center">
-              <div>
-                <Link to="/" className="mid-gray no-underline">Home</Link>
-              </div>
-              <div>
-                <Link to="about/" className="mid-gray no-underline">About</Link>
-              </div>
+            <div className="navbar__links h-100 w-100 flex flex-column justify-center items-center">
+              <NavbarItem to="/">Home</NavbarItem>
+              <NavbarItem to="/about/">About</NavbarItem>
             </div>
           </div>
           <div
