@@ -33,7 +33,7 @@ export default () => (
           <HoverReveal content={pueblo.html} />
         </BlockImage>
         <div
-          className="bg-light-green w-100 about__double-wide navy pa2"
+          className="w-100 about__double-wide pa2 lh-copy f4 pv4"
           dangerouslySetInnerHTML={{ __html: aboutMe.html}} />
         <div className="bg-white">
           <BlockImage
@@ -41,13 +41,13 @@ export default () => (
             className="h-100"
             position="center" />
         </div>
-        <div className="bg-light-purple near-white w-100 pa2" />
         <BlockImage
           className="bg-light-purple about__double-wide"
           img={Sunset}
           position="center">
           <HoverReveal content={tresVolcanes.html} />
         </BlockImage>
+        <div className="w-100 pa2" />
       </div>
     )}
   />
