@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import Link from '../../common/link.js';
 import AnimatedText from './animated-text.js';
 
 
@@ -24,13 +24,13 @@ export default () => (
     </div>
     <div className="db-ns dn w-100 mw6 tr">
       <div className="pv4">
-        <Link className="f5 green hover-light-green" to="/about">CONTACT</Link>
+        <Link to="/about">CONTACT</Link>
       </div>
       <div class="pv4">
-        <Link className="f5 green hover-light-green" to="/about">ABOUT</Link>
+        <Link to="/about">ABOUT</Link>
       </div>
       <div class="pv4">
-        <Link className="f5 green hover-light-green" to="/about">GITHUB</Link>
+        <Link to="https://github.com/madelyneriksen">GITHUB</Link>
       </div>
     </div>
   </div>
