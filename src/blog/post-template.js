@@ -8,7 +8,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div 
-        className="mw8 center pa2"
+        className="mw8 center pa2 pt5"
         dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   )
