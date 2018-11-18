@@ -23,7 +23,7 @@ export default () => (
       </div>
     </div>
     <div className="db-ns dn w-100 mw6 tr">
-      <div class="pv4">
+      <div className="pv4">
         <Link className="f5 green hover-light-green" to="/about">CONTACT</Link>
       </div>
       <div class="pv4">

@@ -26,8 +26,8 @@ export default () => (
         <div className="w-100 ph2 flex flex-wrap items-center justify-around">
           <div className="w-100 mw6 pv3">
             <h1>{node.header}</h1>
-            <p className="f4">{node.body}</p>
-            <Link className="green b hover-light-green" to="/about">About Me &raquo;</Link>
+            <p className="f4 lh-copy">{node.body}</p>
+            <Link className="f4 green b hover-light-green" to="/about">About Me &raquo;</Link>
           </div>
           <div className="w-100 mw6 tc pv3">
             {node.icons.map(icon => (
