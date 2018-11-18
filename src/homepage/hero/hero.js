@@ -18,7 +18,7 @@ export default () => (
       <div className="pv4" />
       <div>
         <p className="b">BACK END \</p>
-        <p><span className="i">FRONT END &nbsp; </span><span className="sans-serif b">\</span></p>
+        <p><span className="tracked">FRONT END </span><span className="sans-serif b">\</span></p>
         <p className="b">OPS.</p>
       </div>
     </div>
