@@ -58,8 +58,8 @@
   background-position: "center";
 }
 
-.hero__author {
-  grid-area: author;
+.hero__image-slice {
+  grid-area: image-slice;
   background-size: cover;
   background-position: "center"
 }
@@ -75,7 +75,7 @@
     grid-template-areas:
     "logo name preview _ menu border-right"
     "__ jumbotron side-jumbotron border-left image border-right"
-    "__ desc author border-left image border-right"
+    "__ desc image-slice border-left image border-right"
     "w-w w-w w-w border-left image border-right"
   }
 }
