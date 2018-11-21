@@ -1,0 +1,81 @@
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3rem 40vh 1fr 1fr 1fr;
+  overflow-x: hidden;
+  grid-template-areas:
+  "logo menu"
+  "image image"
+  "jumbotron jumbotron"
+  "side-jumbotron side-jumbotron"
+  "desc desc"
+}
+
+.hero__logo {
+  grid-area: logo;
+}
+
+.hero__side-jumbotron {
+  grid-area: side-jumbotron;
+}
+
+.hero__name {
+  grid-area: name;
+}
+
+.hero__preview {
+  grid-area: preview;
+}
+
+.hero__menu {
+  grid-area: menu;
+}
+
+.hero__menu:hover .hero__dropdown {
+  display: block;
+} 
+
+.hero__jumbotron {
+  grid-area: jumbotron;
+  font-family: 'Montserrat';
+}
+
+.hero__desc {
+  grid-area: desc;
+}
+
+.hero__bor-l {
+  grid-area: border-left;
+}
+
+.hero__bor-r {
+  grid-area: border-right;
+}
+
+.hero__image {
+  grid-area: image;
+  background-size: cover;
+  background-position: "center";
+}
+
+.hero__author {
+  grid-area: author;
+  background-size: cover;
+  background-position: "center"
+}
+
+.hero__w-w {
+  grid-area: w-w;
+}
+
+@media screen and (min-width: 60em) {
+  .hero__grid {
+    grid-template-columns: 5rem 1fr 1fr 5rem 1fr 5rem;
+    grid-template-rows: 5rem 1fr 5rem 5rem;
+    grid-template-areas:
+    "logo name preview _ menu border-right"
+    "__ jumbotron side-jumbotron border-left image border-right"
+    "__ desc author border-left image border-right"
+    "w-w w-w w-w border-left image border-right"
+  }
+}

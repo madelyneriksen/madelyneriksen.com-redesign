@@ -10,7 +10,7 @@ export default ({ children }) => (
     <Helmet>
       <body className="mid-gray bg-near-white" />
     </Helmet>
-    <Navbar />
+    {/*<Navbar />*/}
     {children}
   </div>
 )

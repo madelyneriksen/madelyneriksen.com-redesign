@@ -1,7 +1,6 @@
 import React from 'react';
-import Grid from './grid/grid.js';
 
 
 export default () => (
-  <Grid />  
+  <div className="hero__image bg-blue" />
 )
