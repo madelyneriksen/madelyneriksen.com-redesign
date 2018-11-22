@@ -14,18 +14,18 @@ export default (props) => {
           <Link
             to={props.to}
             className={classNames(
-              "f4",
-              location.pathname === props.to ? "mid-gray no-underline" : "green hover-light-green",
+              "f5",
+              location.pathname === props.to ? "mid-gray no-underline" : "mid-gray hover-gray",
               props.className
             )}>
             {props.children}
-          </Link>  
+          </Link>
         )}
-      </Location>  
+      </Location>
     )
   } else {
     result = (
-      <a href={props.to} className={classNames("f4 green hover-light-green", props.className)}>
+      <a href={props.to} className={classNames("f5 mid-gray hover-gray", props.className)}>
         {props.children}
       </a>
     )
