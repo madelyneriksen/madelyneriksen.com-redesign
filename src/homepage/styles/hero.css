@@ -74,12 +74,12 @@
 
 @media screen and (min-width: 60em) {
   .hero__grid {
-    grid-template-columns: 5rem 1fr 1fr 5rem 1fr 5rem;
+    grid-template-columns: 5rem 1fr 5rem 1fr 5rem 1fr 5rem;
     grid-template-rows: 5rem 1fr 5rem 5rem;
     grid-template-areas:
-    "logo name preview _ menu border-right"
-    "__ jumbotron side-jumbotron border-left image border-right"
-    "__ desc image-slice border-left image border-right"
-    "w-w w-w w-w border-left w-b border-right"
+    "logo name name preview ____ menu border-right"
+    "__ jumbotron ___ side-jumbotron border-left image border-right"
+    "__ desc ___ image-slice border-left image border-right"
+    "w-w w-w w-w w-w border-left w-b border-right"
   }
 }
