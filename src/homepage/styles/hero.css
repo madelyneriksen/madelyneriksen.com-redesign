@@ -68,6 +68,10 @@
   grid-area: w-w;
 }
 
+.hero__w-b {
+  grid-area: w-b;
+}
+
 @media screen and (min-width: 60em) {
   .hero__grid {
     grid-template-columns: 5rem 1fr 1fr 5rem 1fr 5rem;
@@ -76,6 +80,6 @@
     "logo name preview _ menu border-right"
     "__ jumbotron side-jumbotron border-left image border-right"
     "__ desc image-slice border-left image border-right"
-    "w-w w-w w-w border-left image border-right"
+    "w-w w-w w-w border-left w-b border-right"
   }
 }

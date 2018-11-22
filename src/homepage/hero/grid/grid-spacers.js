@@ -12,14 +12,19 @@ const GridBorderRight = () => (
   <div className="hero__bor-r bg-mid-gray dn db-l" />
 )
 
-const GridBorderBottom = () => (
+const GridBorderBottomLight = () => (
   <div className="hero__w-w bg-washed-red dn db-l" />
+)
+
+const GridBorderBottomDark = () => (
+  <div className="hero__w-b bg-mid-gray dn db-l" />
 )
 
 export default () => (
   <Fragment>
     <GridBorderLeft />
     <GridBorderRight />
-    <GridBorderBottom />
+    <GridBorderBottomLight />
+    <GridBorderBottomDark />
   </Fragment>
 )
