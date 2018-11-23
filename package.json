@@ -10,17 +10,20 @@
   },
   "dependencies": {
     "animate.css": "^3.7.0",
-    "gatsby": "^2.0.33",
-    "gatsby-plugin-react-helmet": "^3.0.1",
+    "gatsby": "^2.0.55",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sharp": "^2.0.13",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-json": "^2.1.5",
     "gatsby-transformer-remark": "^2.1.12",
-    "react": "^16.5.1",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "react": "^16.6.3",
     "react-animate-on-scroll": "^2.1.5",
-    "react-dom": "^16.5.1",
+    "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.2.2",
-    "tachyons": "^4.10.0"
+    "tachyons": "^4.11.1"
   }
 }
