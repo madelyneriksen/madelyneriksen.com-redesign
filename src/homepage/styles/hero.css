@@ -37,7 +37,6 @@
 
 .hero__jumbotron {
   grid-area: jumbotron;
-  font-family: 'Montserrat';
 }
 
 .hero__desc {
