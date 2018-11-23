@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from '../../common/functions/class-names.js';
 import { StaticQuery, graphql } from 'gatsby';
-import '../styles/bio.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
