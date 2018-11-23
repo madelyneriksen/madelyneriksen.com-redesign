@@ -7,6 +7,5 @@ export default () => (
   <Layout>
     <Hero />
     <Bio />
-    <Grid />
   </Layout>
 )
