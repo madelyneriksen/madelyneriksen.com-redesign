@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import classNames from '../../common/functions/class-names.js';
 import { StaticQuery, graphql } from 'gatsby';
 import '../styles/bio.css';
