@@ -1,0 +1,21 @@
+.bio__grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "side-1"
+    "side-2"
+    "side-3"
+}
+
+
+@media screen and (min-width: 60em) {
+  .bio__grid {
+    grid-template-rows: 5rem 1fr 5rem;
+    grid-template-columns: 5rem 1fr 5rem 1fr 5rem 1fr 5rem;
+    grid-template-areas:
+      "top top top top top top top"
+      "_ side-1 __ side-2 ___ side-3 ____"
+      "bottom bottom bottom bottom bottom bottom bottom"
+  }
+}
