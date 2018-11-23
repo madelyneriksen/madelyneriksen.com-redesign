@@ -9,7 +9,7 @@ import 'animate.css/animate.min.css';
 const AnimatedCopy = props => (
   <ScrollAnimation animateIn={props.animation} animateOnce={true}>
     <h1 className="tc">{props.header}</h1>
-    <p className="lh-copy f4" dangerouslySetInnerHTML={{__html: props.body}} />
+    <div className="lh-copy f4" dangerouslySetInnerHTML={{__html: props.body}} />
   </ScrollAnimation>
 )
 
