@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/form-grid.css';
 
 
-const formClasses = "w-100 bg-transparent ba b--mid-gray pa2";
+const formClasses = "w-100 bg-transparent br-0 bl-0 bt-0 bb b--mid-gray pa2";
 
 
 export default () => (
