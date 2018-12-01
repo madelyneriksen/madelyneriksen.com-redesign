@@ -10,15 +10,19 @@ const Menu = () => (
 
 const Logo = () => (
   <div className="hero__logo bg-washed-red flex items-center justify-center">
-    <div className="ba b--mid-gray mid-gray br-100 flex items-center justify-center h2 w2">
-      <span><Link to="/" className="mid-gray no-underline">M</Link></span>
-    </div>
+    <Link to="/" className="no-underline">
+      <div className="ba b--mid-gray mid-gray br-100 flex items-center justify-center h2 w2">
+        <span>M</span>
+      </div>
+    </Link>
   </div>
 )
 
 const Projects = () => (
   <div class="hero__preview dn bg-near-white flex-l items-center">
-    <span className="mid-gray pa2">projects &rsaquo;</span>
+    <a
+      href="https://github.com/madelyneriksen/"
+      className="mid-gray pa2 no-underline">I'm on Github! &rsaquo;</a>
   </div>
 )
 
