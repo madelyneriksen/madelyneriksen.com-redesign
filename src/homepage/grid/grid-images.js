@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Sunset from '../../../../content/about/img/sunset.jpeg';
+import Sunset from '../../../content/about/img/sunset.jpeg';
 
 
 const ImageSlice = () => (

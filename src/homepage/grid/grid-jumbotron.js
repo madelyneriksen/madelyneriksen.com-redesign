@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Link from '../../../common/link.js';
+import Link from '../../common/link.js';
 
 
 const Jumbotron = () => (
