@@ -2,15 +2,9 @@ import React from 'react';
 import classNames from '../../common/functions/class-names.js';
 import { StaticQuery, graphql } from 'gatsby';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Me from '../../../content/about/img/me.jpeg';
 import 'animate.css/animate.min.css';
 
-
-const AnimatedCopy = props => (
-  <ScrollAnimation animateIn={props.animation} animateOnce={true}>
-    <h1 className="tc">{props.header}</h1>
-    <div className="lh-copy f4" dangerouslySetInnerHTML={{__html: props.body}} />
-  </ScrollAnimation>
-)
 
 const Panel = props => (
   <div
@@ -30,27 +24,16 @@ export default () => (
             header
           }
         }
-        side2: markdownRemark(frontmatter: {type: {eq: "copy"}, name: {eq: "bio__side-2"}}) {
-          html
-          frontmatter {
-            header
-          }
-        }
       }
     `}
     render={data => (
       <React.Fragment>
         <Panel justify="justify-end" gridArea="side-1">
-          <AnimatedCopy
-            header={data.side1.frontmatter.header}
-            body={data.side1.html}
-            animation="fadeInDown" />
-        </Panel>
-        <Panel justify="justify-start" gridArea="side-3">
-          <AnimatedCopy
-            header={data.side2.frontmatter.header}
-            body={data.side2.html}
-            animation="fadeInUp" />
+          <ScrollAnimation animateIn="fadeInDown" animateOnce={true}>
+            <img src={Me} className="db mw5 br-100 center" />
+            <h1 className="tc">{data.side1.frontmatter.header}</h1>
+            <div className="lh-copy f4" dangerouslySetInnerHTML={{__html: data.side1.html}} />
+          </ScrollAnimation>
         </Panel>
       </React.Fragment>
     )}
