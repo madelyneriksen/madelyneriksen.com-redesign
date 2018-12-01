@@ -5,7 +5,6 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import Me from '../../../content/about/img/me.jpeg';
 import Pueblo from '../../../content/about/img/pueblo.jpg';
 import 'animate.css/animate.min.css';
-import '../../styles/font-mfizz.css';
 
 
 const Panel = props => (
