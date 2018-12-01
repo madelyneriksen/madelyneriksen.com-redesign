@@ -1,7 +1,8 @@
 .generic-grid {
   display: grid;
-  grid-template-rows: 3rem 1fr 1fr 1fr 3rem;
+  grid-template-auto-rows: 1fr;
   grid-template-columns: 1fr;
+  grid-gap: 3rem;
   grid-template-areas:
     "top"
     "side-1"
@@ -15,6 +16,7 @@
   .generic-grid {
     grid-template-rows: 5rem 1fr 5rem;
     grid-template-columns: 5rem 1fr 5rem 1fr 5rem 1fr 5rem;
+    grid-gap: 0rem;
     grid-template-areas:
       "_ top top top top top ____"
       "_ side-1 __ side-2 ___ side-3 ____"
