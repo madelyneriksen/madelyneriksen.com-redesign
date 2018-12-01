@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/form-grid.css';
+import './styles/form-grid.css';
 
 
 const formClasses = "w-100 bg-transparent br-0 bl-0 bt-0 bb b--mid-gray pa2";
