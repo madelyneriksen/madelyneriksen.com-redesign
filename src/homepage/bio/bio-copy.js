@@ -31,12 +31,12 @@ export default () => (
       <React.Fragment>
         <div style={{gridArea: "side-1"}}>
           <ScrollAnimation animateIn="fadeInUp" animateOnce={true} className="h-100">
-            <img src={Pueblo} className="h-100"/>
+            <img src={Pueblo} className="h-100" alt=""/>
           </ScrollAnimation>
         </div>
         <Panel justify="justify-around" gridArea="side-3">
           <ScrollAnimation animateIn="fadeInUp" animateOnce={true} className="pa2">
-            <img src={Me} className="db mw5 br-100 center" />
+            <img src={Me} className="db mw5 br-100 center" alt="That's me!"/>
             <div className="mw7">
               <h1 className="tc">{data.side1.frontmatter.header}</h1>
               <div className="lh-copy f4" dangerouslySetInnerHTML={{__html: data.side1.html}} />

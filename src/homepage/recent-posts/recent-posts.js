@@ -38,7 +38,7 @@ export default () => (
         render={data => data.allMarkdownRemark.edges.map(({node}, index) => (
           <div style={{gridArea: "side-"+(index+1)}}>
             <Link to={node.frontmatter.path} className="grow db">
-              <img src={node.frontmatter.featuredImage.childImageSharp.fluid.src} />
+              <img src={node.frontmatter.featuredImage.childImageSharp.fluid.src} alt="" />
             </Link>
             <div className="ph2">
               <h2>
