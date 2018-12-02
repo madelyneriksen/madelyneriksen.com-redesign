@@ -37,8 +37,10 @@ export default () => (
         <Panel justify="justify-around" gridArea="side-3">
           <ScrollAnimation animateIn="fadeInUp" animateOnce={true} className="pa2">
             <img src={Me} className="db mw5 br-100 center" />
-            <h1 className="tc">{data.side1.frontmatter.header}</h1>
-            <div className="lh-copy f4" dangerouslySetInnerHTML={{__html: data.side1.html}} />
+            <div className="mw7">
+              <h1 className="tc">{data.side1.frontmatter.header}</h1>
+              <div className="lh-copy f4" dangerouslySetInnerHTML={{__html: data.side1.html}} />
+            </div>
           </ScrollAnimation>
         </Panel>
       </React.Fragment>

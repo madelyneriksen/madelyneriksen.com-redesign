@@ -17,9 +17,24 @@
     grid-template-rows: 5rem 1fr 5rem;
     grid-template-columns: 5rem 1fr 5rem 1fr 5rem 1fr 5rem;
     grid-gap: 0rem;
+
+  }
+  .triple-grid {
     grid-template-areas:
-      "_ top top top top top ____"
-      "_ side-1 __ side-2 ___ side-3 ____"
-      "_ bottom bottom bottom bottom bottom ____"
+    "_ top top top top top ____"
+    "_ side-1 __ side-2 ___ side-3 ____"
+    "_ bottom bottom bottom bottom bottom ____"
+  }
+  .double-right-grid {
+    grid-template-areas:
+    "_ top top top top top ____"
+    "_ side-1 __ side-3 side-3 side-3 ____"
+    "_ bottom bottom bottom bottom bottom ____"
+  }
+  .double-left-grid {
+    grid-template-areas:
+    "_ top top top top top ____"
+    "_ side-1 side-1 side-1 ___ side-3 ____"
+    "_ bottom bottom bottom bottom bottom ____"
   }
 }

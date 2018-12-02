@@ -5,7 +5,7 @@ import { StaticQuery, graphql, Link } from 'gatsby';
 
 export default () => (
   <React.Fragment>
-    <div className="generic-grid">
+    <div className="generic-grid triple-grid">
       <div className="flex items-center justify-end" style={{gridArea: "bottom"}}>
         <h4><Link to="/blog/" className="no-underline mid-gray">See all posts &raquo;</Link></h4>
       </div>

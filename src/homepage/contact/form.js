@@ -7,7 +7,6 @@ const formClasses = "w-100 bg-transparent br-0 bl-0 bt-0 bb b--mid-gray pa2 mid-
 
 export default () => (
   <React.Fragment>
-    <h1 className="tc">Contact Me</h1>
     <form
       action="https://www.briskforms.com/go/05fe3e0bd88ddc64d0c5e7794820268c"
       method="POST"
